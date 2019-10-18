@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project 2</title>
+    <script src="project2.js">
+    </script>
+    <link href="project2.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+  <div id="quiz">
+    <h1>Here is the quiz. Good luck!</h1>
+    <div style="padding: 5px; margin-bottom: 10px;">
+      <p>Here's how this quiz should work: all the questions are listed here. Just select or type in the correct answer, and it should tell you right away if the answer is correct or not. The JS file will calculate the score, then display it in the h1 at the top of this page, once you click the submit button at the bottom.</p>
+      <p>I made the questions super easy but I'll put an answer key anyway:<br/>
+        <blockquote>
+          Question 1: 4<br/>
+          Question 2: a<br/>
+          Question 3: HTML<br/>
+          Question 4: E<br/>
+        </blockquote>
+    </div>
+    <div class="question">
+      <p>Question 1: What is 2 + 2?</p>
+      <button class="question1wronganswer">22</button>
+      <button class="question1wronganswer">5</button>
+      <button id="question1correctanswer">4</button>
+      <p id="question1result"></p>
+    </div>
+    <div class="question">
+      <p>Question 2: Which one is a cat?</p>
+      <button id="question2correctanswer">a</button><img src="cat.jpg" height="100px"/><br/>
+      <button class="question2wronganswer">b</button><img src="dog.jpg" height="100px"/><br/>
+      <button class="question2wronganswer">c</button><img src="bird.jpg" height="100px"/>
+      <p id="question2result"></p>
+    </div>
+    <div class="question">
+      <p>Question 3: What language do we use to create web pages? <br/>Type your answer below:</p>
+      <form id="form">
+          <input id="question3answer" type="text"/>
+      </form>
+      <p id="question3result"></p>
+    </div>
+    <div class="question">
+      <p>Question 4: Which letter is a vowel?</p>
+      <button class="question4wronganswer">T</button>
+      <button id="question4correctanswer">E</button>
+      <button class="question4wronganswer">C</button><br/>
+      <p id="question4result"></p>
+    <br/>
+    <button id="submit-button">Submit your answers</button>
+    </div>
+
+  </div>
+  </body>
+</html>

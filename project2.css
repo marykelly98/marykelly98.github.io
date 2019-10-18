@@ -1,0 +1,24 @@
+/*stylesheet for project2*/
+body {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: verdana, sans-serif;
+  color: #7D2862;
+}
+h1 {
+  text-align: center;
+}
+.question {
+  background-color: white;
+  padding: 10px;
+  background-color: #FFC760;
+}
+#quiz {
+  width: 50%;
+  margin-left: 25%;
+
+}
+button {
+  background-color: white;
+}
